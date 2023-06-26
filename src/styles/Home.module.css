@@ -7,6 +7,8 @@
   min-height: 100vh;
 }
 
+
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -17,6 +19,7 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+
 
 .description a {
   display: flex;
@@ -34,10 +37,12 @@
   border-radius: var(--border-radius);
 }
 
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
 }
+
 
 .grid {
   display: grid;
@@ -45,6 +50,7 @@
   width: var(--max-width);
   max-width: 100%;
 }
+
 
 .card {
   padding: 1rem 1.2rem;
@@ -54,15 +60,19 @@
   transition: background 200ms, border 200ms;
 }
 
+
+
 .card span {
   display: inline-block;
   transition: transform 200ms;
 }
 
+
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
 }
+
 
 .card p {
   margin: 0;
@@ -88,12 +98,14 @@
   margin-left: -400px;
 }
 
+
 .center::after {
   background: var(--primary-glow);
   width: 240px;
   height: 180px;
   z-index: -1;
 }
+
 
 .center::before,
 .center::after {
